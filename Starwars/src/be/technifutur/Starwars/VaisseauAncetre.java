@@ -1,6 +1,6 @@
 package be.technifutur.Starwars;
 
-public class VaisseauAncetre
+public abstract class VaisseauAncetre
 {
     // Equivalent de VaisseauSecurise mais sert d'exemple pour l'héritage.
     private String name = "Unnamed_Vessels" ;
@@ -14,6 +14,8 @@ public class VaisseauAncetre
             name = aName;
 
     }
+
+    public abstract String getTeam();
 
     public void shoot()
     {
