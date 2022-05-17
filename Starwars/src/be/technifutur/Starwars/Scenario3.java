@@ -23,6 +23,8 @@ public class Scenario3
         System.out.println(va2.getName() + " est " + va2.getTeam());
 
         ds.attractVessel(va2);
+        ds.attractVessel(ve);
+        ds.attractVessel(vr);
 
     }
 
