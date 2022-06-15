@@ -111,7 +111,7 @@ public class Personne implements Comparable<Personne>
                 new Personne("Montand", "Yves", LocalDate.of(1921, 10, 13), 187),
                 new Personne("Montand", "Bernard", LocalDate.of(1923, 10, 13), 187),
                 new Personne("Montand", "Yves", LocalDate.of(1921, 10, 13), 187),
-                new Personne("Louis", "de Funès", LocalDate.of(1914, 7, 31), 164)
+                new Personne("de Funès", "Louis", LocalDate.of(1914, 7, 31), 164)
         };
     }
 }
