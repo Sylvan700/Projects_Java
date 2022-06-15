@@ -116,6 +116,8 @@ fun Subscription()
     var surname :String
     var entree : String?
 
+    var ind = 0
+
     var selectedStagPos : Int = -1
 
 
@@ -126,9 +128,8 @@ fun Subscription()
 
     for(i in stagList)
     {
-        var ind = 0
 
-        if(stagList.elementAt(ind).name == name && stagList.elementAt(ind).surname == surname)
+        if(i.name == name && i.surname == surname)
         {
             selectedStagPos = ind;
         }
